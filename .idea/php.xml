@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/comp/vendor/composer" />
+      <path value="$PROJECT_DIR$/comp/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/comp/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/comp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/comp/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/comp/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/comp/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/comp/vendor/sabberworm/php-css-parser" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+</project>

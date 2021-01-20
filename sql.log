@@ -1,0 +1,796 @@
+
+
+[2021-01-15 12:11:16]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:11:16]
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"5","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:11:16]
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"5"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:18:29]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:18:29]
+     Запрос = 'SELECT * FROM product WHERE id = :id'
+     Параметры = {"id":"15"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:48]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:32:48]
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"1","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:48]
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"1"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:50]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:32:50]
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:50]
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:52]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:32:52]
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:52]
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:32:58]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:32:58]
+     Запрос = 'SELECT * FROM product WHERE status="1" AND id IN (?,?)'
+     Параметры = [8,3]
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:33:02]
+     Запрос = 'SELECT * FROM product WHERE status="1" AND id IN (?)'
+     Параметры = [8]
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:33:04]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:33:05]
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:33:05]
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"2","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:33:05]
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"2"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:44:59]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:44:59]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT * FROM product WHERE id = :id'
+     Параметры = {"id":"9"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:45:01]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:45:01]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"3","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:45:01]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"3"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:14]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY date DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:56:14]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:14]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:14]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:18]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:56:18]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:18]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:18]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:21]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:56:21]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:21]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:21]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:56:21]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":20,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:00]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":40}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:00]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:00]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:00]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":50}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:03]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:05]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":60}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:05]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:05]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:05]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:13]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":70}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:13]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:13]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:13]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":90}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:15]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:29]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":990}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:57:29]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:29]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:29]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:31]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":910}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:57:31]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:31]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:31]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:33]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":860}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:57:33]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:33]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:33]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:35]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":810}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:57:35]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:35]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:35]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:36]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY status_id DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":760}
+     Запрос выполнен успешно.
+     Время выполнения: 0.03
+
+[2021-01-15 12:57:36]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:36]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:36]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:37]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT * FROM product_order WHERE id = :id'
+     Параметры = {"id":"222857"}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:37]
+     Запрос = 'SELECT * FROM product WHERE status="1" AND id IN (?,?,?,?,?,?,?,?,?)'
+     Параметры = [5,13,7,8,14,2,18,17,9]
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:56]
+     Запрос = 'UPDATE product_order SET status_id = :status_id, user_comment = :user_comment WHERE id = :id'
+     Параметры = {"id":"222857","status_id":"1","user_comment":""}
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 12:57:56]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT * FROM product_order WHERE id = :id'
+     Параметры = {"id":"222857"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:56]
+     Запрос = 'SELECT * FROM product WHERE status="1" AND id IN (?,?,?,?,?,?,?,?,?)'
+     Параметры = [5,13,7,8,14,2,18,17,9]
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:57]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product_order 
+                ORDER BY date DESC
+                LIMIT :offset, :count'
+     Параметры = {"count":10,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:57]
+     Инструкция 'fetchColumn' инициировала выполнение "PDOStatement::fetchColumn()"
+     Запрос = 'SELECT count(*) as count FROM product_order'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 12:57:57]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT s.name, COUNT(p_o.id) count FROM product_order p_o JOIN status s ON s.status_id = p_o.status_id GROUP BY s.name ORDER BY s.status_id'
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 12:57:57]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT COUNT(id) count FROM product_order GROUP BY DAYOFWEEK(date)'
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:03]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:09]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:05:09]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:09]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:12]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT * FROM product ORDER BY id'
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:05:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:15]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:38]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:05:38]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"5","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:38]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"5"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:40]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:40]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"3","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:40]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"3"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:43]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:05:43]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"1","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:05:43]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"1"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:37]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:37]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"5","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:37]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"5"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:39]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:06:39]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"3","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:39]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"3"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:41]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:41]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = :category_id ORDER BY id DESC LIMIT :count OFFSET :offset '
+     Параметры = {"category_id":"1","count":6,"offset":0}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:06:41]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT count(id) AS count FROM product WHERE status="1" AND category_id = :category_id'
+     Параметры = {"category_id":"1"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:08:18]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:08:30]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.01
+
+[2021-01-15 13:08:30]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_new FROM product WHERE status = "1" ORDER BY is_new DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:08:30]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name, price, image, is_recommended, is_new FROM product WHERE status = "1"ORDER BY is_recommended DESC LIMIT :count'
+     Параметры = {"count":6}
+     Запрос выполнен успешно.
+     Время выполнения: 0
+
+[2021-01-15 13:20:19]
+     Инструкция 'fetchAll' инициировала выполнение "PDOStatement::fetchAll()"
+     Запрос = 'SELECT id, name FROM category WHERE status = "1"ORDER BY sort_order ASC '
+     Запрос выполнен успешно.
+     Время выполнения: 0.02
+
+[2021-01-15 13:20:19]
+     Инструкция 'fetch' инициировала выполнение "PDOStatement::fetch()"
+     Запрос = 'SELECT * FROM product WHERE id = :id'
+     Параметры = {"id":"3"}
+     Запрос выполнен успешно.
+     Время выполнения: 0
